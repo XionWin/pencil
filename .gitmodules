@@ -1,0 +1,3 @@
+[submodule "egl-rs"]
+	path = egl-rs
+	url = http://www.github.com/xionwin/egl-rs
