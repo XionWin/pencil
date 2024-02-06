@@ -3,6 +3,5 @@ resolver = "1"
 members=[
     "app",
     "win32-rs",
-    "colored-rs",
     "egl-rs"
 ]

@@ -8,7 +8,7 @@ pub struct Window {
     handle: HWnd,
     width: c_int,
     height: c_int,
-    title: String,
+    title: String
 }
 
 impl Window {
@@ -72,7 +72,7 @@ impl Window {
             handle,
             width,
             height,
-            title: String::from(title),
+            title: String::from(title)
         }
     }
 
@@ -94,6 +94,10 @@ impl Window {
                 }
             }
         }
+    }
+
+    pub fn get_handle(&self) -> HWnd {
+        self.handle
     }
 
     pub fn get_width(&self) -> c_int {
